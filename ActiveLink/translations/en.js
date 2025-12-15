@@ -10,7 +10,7 @@ export const translations = {
     hero: {
       title: 'Connect. Reflect.',
       titleHighlight: 'Act Together.',
-      description: 'ActiveLink promotes education, social inclusion, and cultural exchange. We foster debate on climate, diversity, and peace, building stronger communities through sports, art, and collaboration.',
+      description: 'AktiveLink promotes education, social inclusion, and cultural exchange. We foster debate on climate, diversity, and peace, building stronger communities through sports, art, and collaboration.',
       joinCommunity: 'Join Our Community',
       learnMore: 'Learn More',
     },
@@ -40,20 +40,21 @@ export const translations = {
       members: 'Community Members',
       programs: 'Training Programs',
       countries: 'Partner Countries',
+      visionNote: 'These numbers represent our vision for 2026.',
     },
     cta: {
       title: 'Ready to get involved?',
-      description: 'Whether you want to participate in our sports events, join a workshop, or volunteer, there\'s a place for you at ActiveLink.',
+      description: 'Whether you want to participate in our sports events, join a workshop, or volunteer, there\'s a place for you at AktiveLink.',
       button: 'Become a Member Today',
     },
   },
   about: {
     title: 'Connect. Reflect.',
     titleHighlight: 'Act Together.',
-    description: 'ActiveLink Finland promotes education, social inclusion, and cultural exchange. We foster debate on pressing issues like climate, diversity, and peace, building stronger communities through collaboration.',
+    description: 'AktiveLink Finland promotes education, social inclusion, and cultural exchange. We foster debate on pressing issues like climate, diversity, and peace, building stronger communities through collaboration.',
     whoWeAre: {
       title: 'Who We Are',
-      paragraph1: 'ActiveLink is a non-profit organization dedicated to education, social inclusion, and cultural exchange in our region and beyond. We foster debate and reflection on sensitive contemporary issues, such as the climate crisis, the rise of segregation and radicalization, the potential and dangers of new technologies, diversity and inclusion, and conflict and peace.',
+      paragraph1: 'AktiveLink is a non-profit organization dedicated to education, social inclusion, and cultural exchange in our region and beyond. We foster debate and reflection on sensitive contemporary issues, such as the climate crisis, the rise of segregation and radicalization, the potential and dangers of new technologies, diversity and inclusion, and conflict and peace.',
       paragraph2: 'To achieve these goals, we use a variety of tools and methods—from sports, artistic, and cultural activities to workshops, lectures, and laboratories. All our content is handled responsibly and constructed with the support of academic studies, scientific theories, and reliable data.',
       paragraph3: 'Partnerships are central to our mission. We believe that by building partnerships with other organizations, we help each other by increasing the reach of our actions and learning from each other, avoiding redundancy and maximizing impact.',
       features: [
@@ -106,7 +107,7 @@ export const translations = {
   },
   join: {
     title: 'Become a Member',
-    description: 'Join a vibrant community of changemakers. As a member of ActiveLink, you gain access to exclusive events, training programs, and a network of professionals.',
+    description: 'Join a vibrant community of changemakers. As a member of AktiveLink, you gain access to exclusive events, training programs, and a network of professionals.',
     benefits: {
       exclusive: {
         title: 'Exclusive Access',

@@ -99,7 +99,7 @@ export default function Layout({ children }) {
              {/* Logo */}
              <img 
                src="/logo.png" 
-               alt="ActiveLink Finland" 
+               alt="AktiveLink Finland" 
                className="h-32 md:h-44 w-auto object-contain"
                onError={(e) => {
                  console.warn('Logo not found at /logo.png. Please place logo.png in the public directory.');
@@ -186,7 +186,7 @@ export default function Layout({ children }) {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold">ActiveLink<span className="font-light">Finland</span></h3>
+              <h3 className="text-2xl font-bold">AktiveLink<span className="font-light">Finland</span></h3>
               <p className="text-slate-400 leading-relaxed">
                 {t.footer.description}
               </p>
@@ -209,8 +209,7 @@ export default function Layout({ children }) {
               <h4 className="text-lg font-semibold mb-6">{t.footer.contact}</h4>
               <ul className="space-y-3 text-slate-400">
                 <li>Helsinki, Finland</li>
-                <li>contact@activelink.fi</li>
-                <li>+358 123 456 789</li>
+                <li>info@aktivelink.fi</li>
               </ul>
             </div>
 
@@ -238,7 +237,7 @@ export default function Layout({ children }) {
           </div>
           
           <div className="border-t border-slate-800 mt-12 pt-8 text-center text-slate-500 text-sm">
-            © {new Date().getFullYear()} ActiveLink Finland. {t.footer.copyright}
+            © {new Date().getFullYear()} AktiveLink Finland. {t.footer.copyright}
           </div>
         </div>
       </footer>

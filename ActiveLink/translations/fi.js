@@ -10,7 +10,7 @@ export const translations = {
     hero: {
       title: 'Yhdistä. Mieti.',
       titleHighlight: 'Toimi yhdessä.',
-      description: 'ActiveLink edistää koulutusta, sosiaalista osallisuutta ja kulttuurivaihtoa. Edistämme keskustelua ilmastosta, monimuotoisuudesta ja rauhasta rakentamalla vahvempia yhteisöjä urheilun, taiteen ja yhteistyön kautta.',
+      description: 'AktiveLink edistää koulutusta, sosiaalista osallisuutta ja kulttuurivaihtoa. Edistämme keskustelua ilmastosta, monimuotoisuudesta ja rauhasta rakentamalla vahvempia yhteisöjä urheilun, taiteen ja yhteistyön kautta.',
       joinCommunity: 'Liity yhteisöömme',
       learnMore: 'Lue lisää',
     },
@@ -40,20 +40,21 @@ export const translations = {
       members: 'Yhteisön jäsentä',
       programs: 'Koulutusohjelmaa',
       countries: 'Kumppanimaata',
+      visionNote: 'Nämä luvut edustavat visiotamme vuodelle 2026.',
     },
     cta: {
       title: 'Valmiina osallistumaan?',
-      description: 'Haluatko osallistua urheilutapahtumiin, työpajoihin tai vapaaehtoistyöhön, ActiveLinkissa on sinulle paikka.',
+      description: 'Haluatko osallistua urheilutapahtumiin, työpajoihin tai vapaaehtoistyöhön, AktiveLinkissa on sinulle paikka.',
       button: 'Liity jäseneksi tänään',
     },
   },
   about: {
     title: 'Yhdistä. Mieti.',
     titleHighlight: 'Toimi yhdessä.',
-    description: 'ActiveLink Suomi edistää koulutusta, sosiaalista osallisuutta ja kulttuurivaihtoa. Edistämme keskustelua kiireellisistä kysymyksistä, kuten ilmastosta, monimuotoisuudesta ja rauhasta, rakentamalla vahvempia yhteisöjä yhteistyön kautta.',
+    description: 'AktiveLink Suomi edistää koulutusta, sosiaalista osallisuutta ja kulttuurivaihtoa. Edistämme keskustelua kiireellisistä kysymyksistä, kuten ilmastosta, monimuotoisuudesta ja rauhasta, rakentamalla vahvempia yhteisöjä yhteistyön kautta.',
     whoWeAre: {
       title: 'Keitä olemme',
-      paragraph1: 'ActiveLink on voittoa tavoittelematon organisaatio, joka on omistautunut koulutukselle, sosiaaliselle osallisuudelle ja kulttuurivaihdolle alueellamme ja sen ulkopuolella. Edistämme keskustelua ja pohdintaa arkisista nykyaikaisista kysymyksistä, kuten ilmastokriisistä, eriytymisen ja radikalisoitumisen noususta, uusien teknologioiden mahdollisuuksista ja vaaroista, monimuotoisuudesta ja osallisuudesta sekä konflikteista ja rauhasta.',
+      paragraph1: 'AktiveLink on voittoa tavoittelematon organisaatio, joka on omistautunut koulutukselle, sosiaaliselle osallisuudelle ja kulttuurivaihdolle alueellamme ja sen ulkopuolella. Edistämme keskustelua ja pohdintaa arkisista nykyaikaisista kysymyksistä, kuten ilmastokriisistä, eriytymisen ja radikalisoitumisen noususta, uusien teknologioiden mahdollisuuksista ja vaaroista, monimuotoisuudesta ja osallisuudesta sekä konflikteista ja rauhasta.',
       paragraph2: 'Näiden tavoitteiden saavuttamiseksi käytämme monipuolisia työkaluja ja menetelmiä - urheilusta, taiteellisista ja kulttuurisista aktiviteeteista työpajoihin, luentoihin ja laboratorioihin. Kaikki sisältömme käsitellään vastuullisesti ja rakennetaan akateemisten tutkimusten, tieteellisten teorioiden ja luotettavien tietojen tuella.',
       paragraph3: 'Kumppanuudet ovat keskeisiä tehtävällemme. Uskomme, että rakentamalla kumppanuuksia muiden organisaatioiden kanssa autamme toisiamme lisäämällä toimiemme saavutettavuutta ja oppimalla toisiltamme, välttäen päällekkäisyyttä ja maksimoiden vaikutuksen.',
       features: [
@@ -106,7 +107,7 @@ export const translations = {
   },
   join: {
     title: 'Liity jäseneksi',
-    description: 'Liity elinvoimaiseen muutosagenttien yhteisöön. ActiveLinkin jäsenenä saat pääsyn yksinoikeuksisiin tapahtumiin, koulutusohjelmiin ja ammattilaisten verkostoon.',
+    description: 'Liity elinvoimaiseen muutosagenttien yhteisöön. AktiveLinkin jäsenenä saat pääsyn yksinoikeuksisiin tapahtumiin, koulutusohjelmiin ja ammattilaisten verkostoon.',
     benefits: {
       exclusive: {
         title: 'Yksinoikeudet',

@@ -18,7 +18,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070&auto=format&fit=crop" 
-            alt="Active Lifestyle" 
+            alt="Aktive Lifestyle" 
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f2f]/90 to-[#0a0f2f]/80" />
@@ -101,6 +101,7 @@ export default function Home() {
             <StatItem number="15" label={t.home.stats.programs} />
             <StatItem number="10" label={t.home.stats.countries} />
           </div>
+          <p className="text-center text-slate-400 text-sm mt-6">{t.home.stats.visionNote}</p>
         </div>
       </section>
 

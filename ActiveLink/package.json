@@ -2,7 +2,7 @@
   "name": "activelink-finland",
   "version": "1.0.0",
   "type": "module",
-  "description": "ActiveLink Finland - A non-profit organization promoting education, social inclusion, and cultural exchange",
+  "description": "AktiveLink Finland - A non-profit organization promoting education, social inclusion, and cultural exchange",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",

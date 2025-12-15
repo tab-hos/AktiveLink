@@ -103,8 +103,8 @@ With a background shaped by migration, education, community engagement, and emer
       name: "Kevin",
       role: "Co-Founder",
       image: null,
-      shortBio: "Co-founder of ActiveLink Finland, contributing to the organization's mission and vision.",
-      fullBio: "Co-founder of ActiveLink Finland, contributing to the organization's mission and vision."
+      shortBio: "Co-founder of AktiveLink Finland, contributing to the organization's mission and vision.",
+      fullBio: "Co-founder of AktiveLink Finland, contributing to the organization's mission and vision."
     }
   ];
   
