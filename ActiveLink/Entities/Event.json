@@ -1,0 +1,47 @@
+{
+    "name": "Event",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "Title of the event"
+      },
+      "description": {
+        "type": "string",
+        "description": "Detailed description"
+      },
+      "start_date": {
+        "type": "string",
+        "format": "date-time",
+        "description": "When the event starts"
+      },
+      "end_date": {
+        "type": "string",
+        "format": "date-time",
+        "description": "When the event ends"
+      },
+      "location": {
+        "type": "string",
+        "description": "Physical location or link"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "sports",
+          "culture",
+          "education",
+          "art"
+        ],
+        "default": "sports",
+        "description": "Category of the event"
+      },
+      "image_url": {
+        "type": "string",
+        "description": "Cover image for the event"
+      }
+    },
+    "required": [
+      "title",
+      "start_date"
+    ]
+  }

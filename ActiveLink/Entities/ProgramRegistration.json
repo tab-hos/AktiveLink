@@ -1,0 +1,46 @@
+{
+    "name": "ProgramRegistration",
+    "type": "object",
+    "properties": {
+      "program_id": {
+        "type": "string",
+        "description": "ID of the program"
+      },
+      "program_title": {
+        "type": "string",
+        "description": "Title of the program snapshot"
+      },
+      "full_name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "experience_level": {
+        "type": "string",
+        "enum": [
+          "beginner",
+          "intermediate",
+          "advanced"
+        ],
+        "default": "beginner"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "pending",
+          "confirmed",
+          "waitlist"
+        ],
+        "default": "pending"
+      }
+    },
+    "required": [
+      "program_id",
+      "full_name",
+      "email"
+    ]
+  }

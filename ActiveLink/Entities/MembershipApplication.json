@@ -1,0 +1,42 @@
+{
+    "name": "MembershipApplication",
+    "type": "object",
+    "properties": {
+      "full_name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "membership_type": {
+        "type": "string",
+        "enum": [
+          "individual",
+          "student",
+          "family",
+          "corporate"
+        ],
+        "default": "individual"
+      },
+      "message": {
+        "type": "string",
+        "description": "Why do you want to join?"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "pending",
+          "approved",
+          "rejected"
+        ],
+        "default": "pending"
+      }
+    },
+    "required": [
+      "full_name",
+      "email"
+    ]
+  }

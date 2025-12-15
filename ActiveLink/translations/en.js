@@ -1,0 +1,182 @@
+export const translations = {
+  nav: {
+    home: 'Home',
+    about: 'About Us',
+    events: 'Events',
+    training: 'Training',
+    becomeMember: 'Become a Member',
+  },
+  home: {
+    hero: {
+      title: 'Connect. Reflect.',
+      titleHighlight: 'Act Together.',
+      description: 'ActiveLink promotes education, social inclusion, and cultural exchange. We foster debate on climate, diversity, and peace, building stronger communities through sports, art, and collaboration.',
+      joinCommunity: 'Join Our Community',
+      learnMore: 'Learn More',
+    },
+    approach: {
+      subtitle: 'Our Approach',
+      title: 'Education, Socialization & Integration',
+      description: 'We use diverse tools to address contemporary challenges like the climate crisis, segregation, and the impact of new technologies.',
+      education: {
+        title: 'Education & Debate',
+        description: 'Workshops and lectures promoting reflection on sensitive contemporary issues.',
+      },
+      sports: {
+        title: 'Sports & Inclusion',
+        description: 'Physical activities designed to promote teamwork, health, and social integration.',
+      },
+      art: {
+        title: 'Art & Culture',
+        description: 'Artistic laboratories and cultural exchanges that connect diverse participants.',
+      },
+      partnerships: {
+        title: 'Partnerships',
+        description: 'Supporting and integrating initiatives from other organizations to maximize reach.',
+      },
+    },
+    stats: {
+      events: 'Events Yearly',
+      members: 'Community Members',
+      programs: 'Training Programs',
+      countries: 'Partner Countries',
+    },
+    cta: {
+      title: 'Ready to get involved?',
+      description: 'Whether you want to participate in our sports events, join a workshop, or volunteer, there\'s a place for you at ActiveLink.',
+      button: 'Become a Member Today',
+    },
+  },
+  about: {
+    title: 'Connect. Reflect.',
+    titleHighlight: 'Act Together.',
+    description: 'ActiveLink Finland promotes education, social inclusion, and cultural exchange. We foster debate on pressing issues like climate, diversity, and peace, building stronger communities through collaboration.',
+    whoWeAre: {
+      title: 'Who We Are',
+      paragraph1: 'ActiveLink is a non-profit organization dedicated to education, social inclusion, and cultural exchange in our region and beyond. We foster debate and reflection on sensitive contemporary issues, such as the climate crisis, the rise of segregation and radicalization, the potential and dangers of new technologies, diversity and inclusion, and conflict and peace.',
+      paragraph2: 'To achieve these goals, we use a variety of tools and methods—from sports, artistic, and cultural activities to workshops, lectures, and laboratories. All our content is handled responsibly and constructed with the support of academic studies, scientific theories, and reliable data.',
+      paragraph3: 'Partnerships are central to our mission. We believe that by building partnerships with other organizations, we help each other by increasing the reach of our actions and learning from each other, avoiding redundancy and maximizing impact.',
+      features: [
+        'Promoting debate on contemporary issues',
+        'Using sports, art, and culture as tools',
+        'Scientific and data-driven content',
+        'Strong partnerships with other organizations',
+      ],
+    },
+    founders: {
+      title: 'Our Founders',
+      description: 'Professionals with extensive experience in social work and project management, united to expand positive impact.',
+    },
+  },
+  events: {
+    title: 'Upcoming Events',
+    description: 'Join our community activities and workshops',
+    filters: {
+      all: 'all',
+      sports: 'sports',
+      culture: 'culture',
+      education: 'education',
+      art: 'art',
+    },
+    noEvents: 'No events found in this category.',
+    viewList: 'List View',
+    viewCalendar: 'Calendar View',
+  },
+  training: {
+    title: 'Training Programs',
+    description: 'Develop your skills with our expert-led training sessions. From sports coaching to cultural competency, we offer diverse learning paths.',
+    noPrograms: 'No active training programs at the moment. Check back soon!',
+    register: 'Register Now',
+    registerDialog: {
+      title: 'Register for {program}',
+      description: 'Secure your spot in this program. We\'ll get back to you with confirmation.',
+      fullName: 'Full Name',
+      email: 'Email',
+      phone: 'Phone Number',
+      experienceLevel: 'Experience Level',
+      beginner: 'Beginner',
+      intermediate: 'Intermediate',
+      advanced: 'Advanced',
+      confirm: 'Confirm Registration',
+      success: {
+        title: 'Registration Successful!',
+        message: 'Thanks for signing up. Check your email for details.',
+      },
+    },
+  },
+  join: {
+    title: 'Become a Member',
+    description: 'Join a vibrant community of changemakers. As a member of ActiveLink, you gain access to exclusive events, training programs, and a network of professionals.',
+    benefits: {
+      exclusive: {
+        title: 'Exclusive Access',
+        description: 'Priority registration for all our workshops, sports events, and cultural nights.',
+      },
+      network: {
+        title: 'Community Network',
+        description: 'Connect with like-minded individuals and professionals from diverse backgrounds.',
+      },
+      voting: {
+        title: 'Voting Rights',
+        description: 'Have a say in our annual general meetings and help shape the future of the NGO.',
+      },
+    },
+    pricing: {
+      title: 'Membership Pricing',
+      individual: {
+        title: 'Individual',
+        monthly: 'Only €2.5/month',
+        annual: '€25/year',
+        savings: 'Save €5!',
+      },
+      corporate: {
+        title: 'Corporate',
+        monthly: '€25/month',
+        annual: '€250/year',
+        savings: 'Save €50!',
+      },
+    },
+    form: {
+      title: 'Application Form',
+      subtitle: 'Join our community today.',
+      fullName: 'Full Name',
+      email: 'Email Address',
+      phone: 'Phone Number',
+      membershipType: 'Membership Type',
+      message: 'Why do you want to join?',
+      messagePlaceholder: 'Tell us a bit about yourself...',
+      submit: 'Submit Application',
+      sending: 'Sending...',
+      success: {
+        title: 'Application Received!',
+        message: 'Thank you for applying. We will review your application and get back to you shortly.',
+        note: 'Note: Your application has been saved. Payment instructions for your membership fee will be sent to your email after approval.',
+        submitAnother: 'Submit another application',
+      },
+      error: 'Something went wrong. Please try again.',
+      pricingNote: 'Payment instructions will be sent to your email after application approval. Annual payment includes a discount.',
+    },
+  },
+  footer: {
+    description: 'Bridging cultures through sports, education, and art. Empowering communities for a better tomorrow.',
+    quickLinks: 'Quick Links',
+    contact: 'Contact',
+    followUs: 'Follow Us',
+    newsletter: {
+      title: 'Stay Updated',
+      description: 'Subscribe to our newsletter for the latest updates.',
+      placeholder: 'Enter your email',
+      subscribed: 'Subscribed successfully!',
+      error: 'Failed to subscribe. Please try again.',
+    },
+    copyright: 'All rights reserved.',
+  },
+  common: {
+    loading: 'Loading...',
+    cancel: 'Cancel',
+    close: 'Close',
+    details: 'Details',
+    note: 'Note',
+  },
+};
+

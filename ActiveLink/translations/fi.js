@@ -1,0 +1,182 @@
+export const translations = {
+  nav: {
+    home: 'Koti',
+    about: 'Tietoa meistä',
+    events: 'Tapahtumat',
+    training: 'Koulutus',
+    becomeMember: 'Liity jäseneksi',
+  },
+  home: {
+    hero: {
+      title: 'Yhdistä. Mieti.',
+      titleHighlight: 'Toimi yhdessä.',
+      description: 'ActiveLink edistää koulutusta, sosiaalista osallisuutta ja kulttuurivaihtoa. Edistämme keskustelua ilmastosta, monimuotoisuudesta ja rauhasta rakentamalla vahvempia yhteisöjä urheilun, taiteen ja yhteistyön kautta.',
+      joinCommunity: 'Liity yhteisöömme',
+      learnMore: 'Lue lisää',
+    },
+    approach: {
+      subtitle: 'Lähestymistapamme',
+      title: 'Koulutus, sosiaalistuminen ja integraatio',
+      description: 'Käytämme monipuolisia työkaluja nykyaikaisten haasteiden, kuten ilmastokriisin, eriytymisen ja uusien teknologioiden vaikutusten, käsittelemiseen.',
+      education: {
+        title: 'Koulutus ja keskustelu',
+        description: 'Työpajat ja luennot, jotka edistävät pohdintaa arkisista nykyaikaisista kysymyksistä.',
+      },
+      sports: {
+        title: 'Urheilu ja osallisuus',
+        description: 'Fyysiset aktiviteetit, jotka edistävät tiimityötä, terveyttä ja sosiaalista integraatiota.',
+      },
+      art: {
+        title: 'Taide ja kulttuuri',
+        description: 'Taiteelliset laboratoriot ja kulttuurivaihdot, jotka yhdistävät monimuotoisia osallistujia.',
+      },
+      partnerships: {
+        title: 'Kumppanuudet',
+        description: 'Muiden organisaatioiden aloitteiden tukeminen ja integrointi saavutettavuuden maksimoimiseksi.',
+      },
+    },
+    stats: {
+      events: 'Tapahtumaa vuosittain',
+      members: 'Yhteisön jäsentä',
+      programs: 'Koulutusohjelmaa',
+      countries: 'Kumppanimaata',
+    },
+    cta: {
+      title: 'Valmiina osallistumaan?',
+      description: 'Haluatko osallistua urheilutapahtumiin, työpajoihin tai vapaaehtoistyöhön, ActiveLinkissa on sinulle paikka.',
+      button: 'Liity jäseneksi tänään',
+    },
+  },
+  about: {
+    title: 'Yhdistä. Mieti.',
+    titleHighlight: 'Toimi yhdessä.',
+    description: 'ActiveLink Suomi edistää koulutusta, sosiaalista osallisuutta ja kulttuurivaihtoa. Edistämme keskustelua kiireellisistä kysymyksistä, kuten ilmastosta, monimuotoisuudesta ja rauhasta, rakentamalla vahvempia yhteisöjä yhteistyön kautta.',
+    whoWeAre: {
+      title: 'Keitä olemme',
+      paragraph1: 'ActiveLink on voittoa tavoittelematon organisaatio, joka on omistautunut koulutukselle, sosiaaliselle osallisuudelle ja kulttuurivaihdolle alueellamme ja sen ulkopuolella. Edistämme keskustelua ja pohdintaa arkisista nykyaikaisista kysymyksistä, kuten ilmastokriisistä, eriytymisen ja radikalisoitumisen noususta, uusien teknologioiden mahdollisuuksista ja vaaroista, monimuotoisuudesta ja osallisuudesta sekä konflikteista ja rauhasta.',
+      paragraph2: 'Näiden tavoitteiden saavuttamiseksi käytämme monipuolisia työkaluja ja menetelmiä - urheilusta, taiteellisista ja kulttuurisista aktiviteeteista työpajoihin, luentoihin ja laboratorioihin. Kaikki sisältömme käsitellään vastuullisesti ja rakennetaan akateemisten tutkimusten, tieteellisten teorioiden ja luotettavien tietojen tuella.',
+      paragraph3: 'Kumppanuudet ovat keskeisiä tehtävällemme. Uskomme, että rakentamalla kumppanuuksia muiden organisaatioiden kanssa autamme toisiamme lisäämällä toimiemme saavutettavuutta ja oppimalla toisiltamme, välttäen päällekkäisyyttä ja maksimoiden vaikutuksen.',
+      features: [
+        'Nykyaikaisten kysymysten keskustelun edistäminen',
+        'Urheilun, taiteen ja kulttuurin käyttö työkaluina',
+        'Tieteellinen ja datapohjainen sisältö',
+        'Vahvat kumppanuudet muiden organisaatioiden kanssa',
+      ],
+    },
+    founders: {
+      title: 'Perustajamme',
+      description: 'Ammattilaisia, joilla on laaja kokemus sosiaalityöstä ja projektinhallinnasta, yhdistyneenä positiivisen vaikutuksen laajentamiseksi.',
+    },
+  },
+  events: {
+    title: 'Tulevat tapahtumat',
+    description: 'Liity yhteisömme aktiviteetteihin ja työpajoihin',
+    filters: {
+      all: 'kaikki',
+      sports: 'urheilu',
+      culture: 'kulttuuri',
+      education: 'koulutus',
+      art: 'taide',
+    },
+    noEvents: 'Tässä kategoriassa ei löytynyt tapahtumia.',
+    viewList: 'Listanäkymä',
+    viewCalendar: 'Kalenterinäkymä',
+  },
+  training: {
+    title: 'Koulutusohjelmat',
+    description: 'Kehitä taitojasi asiantuntijoiden johtamilla koulutussessioilla. Urheilun valmennuksesta kulttuuriseen kompetenssiin tarjoamme monipuolisia oppimispolkuja.',
+    noPrograms: 'Tällä hetkellä ei ole aktiivisia koulutusohjelmia. Tarkista myöhemmin uudelleen!',
+    register: 'Rekisteröidy nyt',
+    registerDialog: {
+      title: 'Rekisteröidy ohjelmaan {program}',
+      description: 'Varmista paikkasi tässä ohjelmassa. Palaamme asiaan vahvistuksella.',
+      fullName: 'Koko nimi',
+      email: 'Sähköposti',
+      phone: 'Puhelinnumero',
+      experienceLevel: 'Kokemustaso',
+      beginner: 'Aloittelija',
+      intermediate: 'Keskitaso',
+      advanced: 'Edistynyt',
+      confirm: 'Vahvista rekisteröityminen',
+      success: {
+        title: 'Rekisteröityminen onnistui!',
+        message: 'Kiitos rekisteröitymisestäsi. Tarkista sähköpostisi saadaksesi lisätietoja.',
+      },
+    },
+  },
+  join: {
+    title: 'Liity jäseneksi',
+    description: 'Liity elinvoimaiseen muutosagenttien yhteisöön. ActiveLinkin jäsenenä saat pääsyn yksinoikeuksisiin tapahtumiin, koulutusohjelmiin ja ammattilaisten verkostoon.',
+    benefits: {
+      exclusive: {
+        title: 'Yksinoikeudet',
+        description: 'Etusijarekisteröinti kaikkiin työpajoihimme, urheilutapahtumiin ja kulttuuriyöihin.',
+      },
+      network: {
+        title: 'Yhteisöverkosto',
+        description: 'Yhdistä samanhenkisiin henkilöihin ja ammattilaisiin eri taustoista.',
+      },
+      voting: {
+        title: 'Äänioikeus',
+        description: 'Saa sanasi kuuluviin vuosittaisissa yleisissä kokouksissamme ja auta muovaamaan kansalaisjärjestön tulevaisuutta.',
+      },
+    },
+    pricing: {
+      title: 'Jäsenmaksut',
+      individual: {
+        title: 'Yksityishenkilö',
+        monthly: 'Vain 2,5 €/kk',
+        annual: '25 €/vuosi',
+        savings: 'Säästä 5 €!',
+      },
+      corporate: {
+        title: 'Yritys',
+        monthly: '25 €/kk',
+        annual: '250 €/vuosi',
+        savings: 'Säästä 50 €!',
+      },
+    },
+    form: {
+      title: 'Hakulomake',
+      subtitle: 'Liity yhteisöömme tänään.',
+      fullName: 'Koko nimi',
+      email: 'Sähköpostiosoite',
+      phone: 'Puhelinnumero',
+      membershipType: 'Jäsenyyden tyyppi',
+      message: 'Miksi haluat liittyä?',
+      messagePlaceholder: 'Kerro meille vähän itsestäsi...',
+      submit: 'Lähetä hakemus',
+      sending: 'Lähetetään...',
+      success: {
+        title: 'Hakemus vastaanotettu!',
+        message: 'Kiitos hakemuksestasi. Tarkistamme hakemuksesi ja palaamme asiaan pian.',
+        note: 'Huomio: Hakemuksesi on tallennettu. Jäsenmaksun maksuohjeet lähetetään sähköpostiisi hyväksynnän jälkeen.',
+        submitAnother: 'Lähetä toinen hakemus',
+      },
+      error: 'Jotain meni pieleen. Yritä uudelleen.',
+      pricingNote: 'Maksuohjeet lähetetään sähköpostiisi hakemuksen hyväksynnän jälkeen. Vuosimaksu sisältää alennuksen.',
+    },
+  },
+  footer: {
+    description: 'Yhdistämme kulttuureja urheilun, koulutuksen ja taiteen kautta. Vahvistamme yhteisöjä paremman huomisen puolesta.',
+    quickLinks: 'Pikalinkit',
+    contact: 'Yhteystiedot',
+    followUs: 'Seuraa meitä',
+    newsletter: {
+      title: 'Pysy ajan tasalla',
+      description: 'Tilaa uutiskirjeemme saadaksesi uusimmat päivitykset.',
+      placeholder: 'Syötä sähköpostiosoitteesi',
+      subscribed: 'Tilaus onnistui!',
+      error: 'Tilaus epäonnistui. Yritä uudelleen.',
+    },
+    copyright: 'Kaikki oikeudet pidätetään.',
+  },
+  common: {
+    loading: 'Ladataan...',
+    cancel: 'Peruuta',
+    close: 'Sulje',
+    details: 'Yksityiskohdat',
+    note: 'Huomio',
+  },
+};
+
