@@ -65,8 +65,64 @@ export const translations = {
       ],
     },
     founders: {
-      title: 'Perustajamme',
-      description: 'Ammattilaisia, joilla on laaja kokemus sosiaalityöstä ja projektinhallinnasta, yhdistyneenä positiivisen vaikutuksen laajentamiseksi.',
+      title: 'AktiveLink-tiimi',
+      description: 'Tiimimme yhdistää ammattilaisia, joilla on vahva tausta sosiaalityöstä ja projektinhallinnasta, työskennellen koulutuksen, hallinnon, sosiaalisten aloitteiden, taiteen ja kulttuuristen aktiviteettien parissa maksimoidakseen positiivisen yhteiskunnallisen vaikutuksen.',
+      staff: [
+        {
+          name: "Olsi Marko",
+          role: "Perustaja",
+          image: "/staff/olsi.png",
+          shortBio: "Liikunnanopettaja ja koordinaattori, jolla on yli 14 vuoden kokemus nuorisotyöstä, erikoistunut osallistaviin urheilutoimiin ja yhteisörakentamiseen.",
+          fullBio: `Olsi Marko on liikunnanopettaja ja pitkäaikainen nuorisotyön ammattilainen, jolla on yli neljäntoista vuoden kokemus Helsingin NMKY:stä (YMCA Helsinki). Hän on laajalti tunnettu Yökoris (Keskiyön katu-koripallo) -ohjelman koordinoinnista, joka on yksi Suomen tunnetuimmista matalan kynnyksen urheiluohjelmista nuorille. Hänen työnsä keskittyy turvallisten, osallistavien ja vahvistavien tilojen rakentamiseen, joissa nuoret eri taustoista voivat yhdistyä urheilun kautta.
+
+Olsin johtamistyyli perustuu osallistumiseen, saavutettavuuteen ja positiiviseen yhteisöosallistumiseen. Vuosien varrella hän on kehittänyt vahvan asiantuntemuksen urheilun käytöstä sosiaalisena työkaluna, luoden aktiviteetteja, jotka tuovat nuoret yhteen samalla vahvistaen heidän fyysistä, sosiaalista ja emotionaalista hyvinvointiaan.
+
+Vuoden valmentajaksi palkittu (Helsinki, 2017) erinomaisesta panoksesta yhteisöurheiluun ja nuorison kehitykseen, Olsi on menestyksekkäästi yhteistyössä koulujen, nuorisotalojen, kuntien ja kansainvälisten kumppaneiden kanssa osallistavien urheilualoitteiden edistämiseksi. Viime vuosina hän on laajentanut rooliaan koordinaattorista kouluttajaksi ja fasilitaattoriksi kansainvälisissä nuorisotyön asetelmissa, toimien viimeisimmäksi kouluttajana kansainvälisessä Tool Fair -tapahtumassa Marokossa.`
+        },
+        {
+          name: "Antti Avelin",
+          role: "Perustaja",
+          image: "/staff/antti.png",
+          shortBio: "Omistautunut koripallovalmentaja ja kouluttaja Kotkasta, jolla on kaksi Suomen mestaruutta nuorten koripalloliigassa valmentajana.",
+          fullBio: `Antti Avelin on omistautunut koripallovalmentaja ja kouluttaja Kotkasta. Antti on voittanut kaksi Suomen mestaruutta valmentajana nuorten koripalloliigoissa.
+
+Koripallon ulkopuolella Antti työskentelee ammatillisessa koulutuksessa ja projektinhallinnassa, mukaan lukien roolit kuten kansainvälisten aktiviteettien koordinaattorina ja projektipäällikkönä Etelä-Kymenlaakson ammattiopistossa (EKAMI), jossa hän myös toimii ammatillisena opettajana.
+
+Antin lähestymistapa valmennukseen korostaa jatkuvaa kasvua, tiimityötä ja strategista pelin ymmärtämistä. Hänen kokemuksensa sekä valmennuksessa että koulutusympäristöissä tukee nuoria urheilijoita paitsi taitojensa kehittämisessä, myös luottamuksen, kurinalaisuuden ja positiivisen ajattelutavan rakentamisessa — ominaisuuksia, jotka ovat arvokkaita sekä kentällä että sen ulkopuolella.
+
+Suomalaisessa urheilukulttuurissa ja koulutuksessa juurtuneella taustallaan Antti Avelin tunnetaan harkitsevasta johtajuudestaan, vahvoista viestintätaidoistaan ja omistautumisestaan rohkaisevan tiimiyhteisön luomiseen.`
+        },
+        {
+          name: "Daniel Villas Bôas",
+          role: "Perustaja",
+          image: null,
+          shortBio: "Kouluttaja, sosiaalityöntekijä, projektipäällikkö ja viestintätekniikan kandidaatti, joka työskentelee projekteissa, jotka keskittyvät eriarvoisuuden vähentämiseen ja haavoittuvien ihmisten ja vähemmistöryhmien osallistamiseen.",
+          fullBio: `Daniel Villas Bôas on kouluttaja, sosiaalityöntekijä, projektipäällikkö ja viestintätekniikan alan kandidaatti.
+Hänen taustansa sosiologiassa ja valtiotieteessä, yhdessä henkilökohtaisten kokemustensa kanssa brasilialaisena maahanmuuttajana, joka asuu Euroopan maissa, motivoi häntä työskentelemään projekteissa, jotka keskittyvät eriarvoisuuden vähentämiseen ja haavoittuvien ihmisten ja vähemmistöryhmien osallistamiseen.
+
+Suomessa vuodesta 2014 lähtien asunut Daniel on osallistunut tapahtumien, koulutuksen, työpajojen ja erilaisten sosiaalisten projektien kehittämiseen ja koordinoimiseen, mukaan lukien Yökoris Olsi Markon kanssa.
+
+Aktive Linkin perustajana hän on yksi päävastuullisista yhdistyksen projektien sisällön ja metodologian luomisesta, uskoen, että hänen työnsä niiden kautta on perustavanlaatuista tällä ajanjaksolla, jolloin poliittisen radikalisoitumisen ja suvaitsemattomuuden liittyvät sosiaaliset ongelmat pahenevat.`
+        },
+        {
+          name: "Tabu (Taleb) Hossaini",
+          role: "Kouluttaja ja valmentaja",
+          image: "/staff/tabu.png",
+          shortBio: "Nuoriso-ohjaaja ja yhteisöfasilitaattori, joka keskittyy osallisuuteen, osallistumiseen ja globaaliin koulutukseen, jolla on laaja kokemus monikulttuurisesta nuorisotyöstä.",
+          fullBio: `Tabu (Taleb) Hossaini on nuoriso-ohjaaja ja yhteisöfasilitaattori, jonka työ keskittyy osallisuuteen, osallistumiseen ja globaaliin koulutukseen. Suomeen nuorena pakolaisena saapunut hänen elämänkokemuksensa on vahvasti muovannut hänen pitkäaikaista sitoutumistaan nuorten tukemiseen, erityisesti monikulttuurisissa ympäristöissä ja identiteetin, kuuluvuuden ja toimijuuden kysymyksissä.
+
+Tabu on työskennellyt aktiivisesti globaalin koulutuksen johtajana ja koordinaattorina nuorisoympäristöissä Helsingissä, suunnitellen ja fasilitoiden työpajoja, teemailtoja, keskusteluja ja osallistavia aktiviteetteja, jotka käsittelevät aiheita kuten globaali vastuu, tasa-arvo, kestävyys, ihmisoikeudet ja sosiaalinen oikeudenmukaisuus. Hänen lähestymistapansa korostaa vuoropuhelua, kriittistä ajattelua ja turvallisten tilojen luomista, joissa nuoret voivat turvallisesti pohtia sekä paikallisia että globaaleja kysymyksiä.
+
+Tällä hetkellä Kood/Sisu-opiskelija Tabu kehittää taitojaan teknologiassa ja ohjelmistokehityksessä, pyrkien kaventamaan kuilua koulutuksen, nuorisotyön ja teknologian välillä. Vuonna 2017, Suomen itsenäisyyden 100-vuotisjuhlan aikana, hänet kutsuttiin itsenäisyyspäivän vastaanotolle (Linnan juhlat) tunnustuksena hänen positiivisesta panoksestaan nuorisotyöhön ja yhteisötyöhön.`
+        },
+        {
+          name: "Kevin",
+          role: "Perustajakumppani",
+          image: null,
+          shortBio: "AktiveLink Suomen perustajakumppani, joka osallistuu organisaation tehtävään ja visioon.",
+          fullBio: "AktiveLink Suomen perustajakumppani, joka osallistuu organisaation tehtävään ja visioon."
+        }
+      ]
     },
   },
   events: {

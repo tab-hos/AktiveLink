@@ -65,8 +65,64 @@ export const translations = {
       ],
     },
     founders: {
-      title: 'Our Founders',
-      description: 'Professionals with extensive experience in social work and project management, united to expand positive impact.',
+      title: 'The AktiveLink Team',
+      description: 'Our team brings together professionals with strong backgrounds in social work and project management, working across education, management, social initiatives, art, and cultural activities to maximize positive societal impact.',
+      staff: [
+        {
+          name: "Olsi Marko",
+          role: "Founder",
+          image: "/staff/olsi.png",
+          shortBio: "Physical education teacher and coordinator with over 14 years of experience in youth work, specializing in inclusive sports and community building.",
+          fullBio: `Olsi Marko is a physical education teacher and long-time youth work professional with more than fourteen years of experience at Helsingin NMKY (YMCA Helsinki). He is widely known for coordinating Yökoris (Midnight Street Basketball), one of Finland's most recognized low-threshold sports programs for young people. His work focuses on building safe, inclusive and empowering spaces where youth from diverse backgrounds can connect through sport.
+
+Olsi's leadership style is rooted in participation, accessibility, and positive community engagement. Over the years, he has developed strong expertise in using sport as a social tool, creating activities that bring young people together while strengthening their physical, social, and emotional wellbeing.
+
+Awarded Coach of the Year (Helsinki, 2017) for outstanding contribution to community sports and youth development, Olsi has successfully collaborated with schools, youth centers, municipalities, and international partners to promote inclusive sport initiatives. In recent years, he has expanded his role from coordinator to trainer and facilitator in international youth work settings, most recently serving as a trainer at the International Tool Fair in Morocco.`
+        },
+        {
+          name: "Antti Avelin",
+          role: "Founder",
+          image: "/staff/antti.png",
+          shortBio: "Dedicated basketball coach and educator from Kotka, with two Finnish Championships as a youth basketball coach.",
+          fullBio: `Antti Avelin is a dedicated basketball coach and educator from Kotka. Antti has won two Finnish Champions as coach in youth basketball leagues.
+
+Outside of basketball, Antti works in vocational education and project coordination, including roles such as Coordinator of International Activities and Project Manager at South Kymenlaakso Vocational College (EKAMI), where he also contributes as a vocational teacher. 
+
+Antti's approach to coaching emphasizes continuous growth, teamwork, and strategic understanding of the game. His experience in both coaching and educational environments supports young athletes not only in developing their skills but also in building confidence, discipline, and a positive mindset — qualities that are valuable both on and off the court.
+
+With a background rooted in Finnish sports culture and education, Antti Avelin is known for his thoughtful leadership, strong communication skills, and dedication to fostering an encouraging team environment.`
+        },
+        {
+          name: "Daniel Villas Bôas",
+          role: "Founder",
+          image: null,
+          shortBio: "Educator, social worker, project manager, and undergraduate student in communication technology, working on projects focused on mitigating inequalities and including vulnerable people and minority groups.",
+          fullBio: `Daniel Villas Bôas is an educator, social worker, project manager, and undergraduate student in the field of communication technology.
+His background in Sociology and Political Science, along with his personal experiences as a Brazilian immigrant living in European countries, motivated him to work on projects focused on mitigating inequalities and including vulnerable people and minority groups.
+
+Living in Finland since 2014, Daniel has contributed to the development and coordination of events, training, workshops, and various social projects, including Yökoris with Olsi Marko.
+
+As one of the founders of Aktive Link, he is one of the main people responsible for creating content and methodology for the association's projects, believing that his work through them is fundamental at this time of worsening social problems related to political radicalization and intolerance.`
+        },
+        {
+          name: "Tabu (Taleb) Hossaini",
+          role: "Educator & Trainer",
+          image: "/staff/tabu.png",
+          shortBio: "Youth educator and community facilitator focusing on inclusion, participation, and global education, with extensive experience in multicultural youth work.",
+          fullBio: `Tabu (Taleb) Hossaini is a youth educator and community facilitator whose work focuses on inclusion, participation, and global education. Having arrived in Finland as a young refugee, his lived experience has strongly shaped his long-term commitment to supporting young people, particularly in multicultural environments and in questions of identity, belonging, and agency.
+
+Tabu has worked actively as a global education lead and coordinator in youth settings in Helsinki, planning and facilitating workshops, themed evenings, discussions, and participatory activities addressing topics such as global responsibility, equality, sustainability, human rights, and social justice. His approach emphasizes dialogue, critical thinking, and creating spaces where young people feel safe to reflect on both local and global issues.
+
+Currently a student at Kood/Sisu, Tabu is developing skills in technology and software development, aiming to bridge the gap between education, youth work, and technology. In 2017, during Finland's 100th anniversary of independence, he was invited to the Independence Day Reception (Linnan juhlat) in recognition of his positive contribution to youth and community work.`
+        },
+        {
+          name: "Kevin",
+          role: "Co-Founder",
+          image: null,
+          shortBio: "Co-founder of AktiveLink Finland, contributing to the organization's mission and vision.",
+          fullBio: "Co-founder of AktiveLink Finland, contributing to the organization's mission and vision."
+        }
+      ]
     },
   },
   events: {

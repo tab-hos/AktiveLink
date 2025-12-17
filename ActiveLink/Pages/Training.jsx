@@ -10,14 +10,38 @@ export default function Training() {
   const isLoading = false;
 
   return (
-    <div className="min-h-screen pt-40 md:pt-56 pb-20">
-      <div className="container mx-auto px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#0a0f2f] mb-6">{t.training.title}</h1>
-          <p className="text-xl text-slate-600">
+    <div className="min-h-screen pb-20">
+      {/* Hero Section with Background */}
+      <div className="relative mb-16 h-[400px] md:h-[500px]">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/education/training.png" 
+            alt="Training Programs" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f2f]/90 to-[#0a0f2f]/80" />
+        </div>
+        <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center pb-12 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
+            {(() => {
+              const words = t.training.title.split(' ');
+              const firstWord = words[0];
+              const rest = words.slice(1).join(' ');
+              return (
+                <>
+                  <span>{firstWord}</span>
+                  {rest && <><span className="text-[#f8cb2a]"> {rest}</span></>}
+                </>
+              );
+            })()}
+          </h1>
+          <p className="text-xl text-white/90 max-w-3xl mx-auto">
             {t.training.description}
           </p>
         </div>
+      </div>
+
+      <div className="container mx-auto px-6">
 
         {isLoading ? (
           <div className="flex justify-center py-20">

@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-start justify-center overflow-hidden pt-[160px] md:pt-[200px]">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070&auto=format&fit=crop" 
+            src="/events/homepage.png" 
             alt="Aktive Lifestyle" 
             className="w-full h-full object-cover"
           />

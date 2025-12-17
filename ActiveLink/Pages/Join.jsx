@@ -7,7 +7,7 @@ export default function Join() {
   const { t } = useTranslation();
   
   return (
-    <div className="min-h-screen pt-40 md:pt-56 pb-20">
+    <div className="min-h-screen pt-48 md:pt-72 pb-20">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Left Column: Info */}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { createPageUrl } from './utils';
 import { Menu, X, Instagram, Facebook, Twitter, Mail, Loader2, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -58,6 +58,7 @@ function NewsletterForm() {
 
 export default function Layout({ children }) {
   const { t } = useTranslation();
+  const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -68,6 +69,14 @@ export default function Layout({ children }) {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleNavClick = (path) => {
+    const targetPath = createPageUrl(path);
+    // If clicking on the same page, scroll to top
+    if (location.pathname === targetPath || (targetPath === '/home' && location.pathname === '/')) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   const navLinks = [
     { name: t.nav.home, path: 'Home' },
@@ -95,14 +104,18 @@ export default function Layout({ children }) {
         }`}
       >
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <Link to={createPageUrl('Home')} className="flex items-center gap-3 group">
+          <Link 
+            to={createPageUrl('Home')} 
+            onClick={() => handleNavClick('Home')}
+            className="flex items-center gap-3 group"
+          >
              {/* Logo */}
              <img 
-               src="/logo.png" 
+               src="/logo/logo.png" 
                alt="AktiveLink Finland" 
                className="h-32 md:h-44 w-auto object-contain"
                onError={(e) => {
-                 console.warn('Logo not found at /logo.png. Please place logo.png in the public directory.');
+                 console.warn('Logo not found at /logo/logo.png. Please place logo.png in the public/logo directory.');
                  e.target.style.display = 'none';
                }}
              />
@@ -114,6 +127,7 @@ export default function Layout({ children }) {
               <Link 
                 key={link.path}
                 to={createPageUrl(link.path)}
+                onClick={() => handleNavClick(link.path)}
                 className="text-lg font-medium transition-colors text-slate-700 hover:text-[#f8cb2a]"
               >
                 {link.name}
@@ -122,6 +136,7 @@ export default function Layout({ children }) {
             <LanguageToggle isScrolled={isScrolled} />
             <Link 
               to={createPageUrl('Join')}
+              onClick={() => handleNavClick('Join')}
               className="px-6 py-2.5 rounded-full text-base font-semibold transition-all hover:scale-105 bg-[#0a0f2f] text-white hover:bg-[#0a0f2f]/90"
             >
               {t.nav.becomeMember}
@@ -156,7 +171,10 @@ export default function Layout({ children }) {
                 <Link 
                   key={link.name}
                   to={createPageUrl(link.path)}
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    handleNavClick(link.path);
+                  }}
                   className="text-2xl font-medium text-slate-800"
                 >
                   {link.name}
@@ -166,7 +184,10 @@ export default function Layout({ children }) {
                 <LanguageToggle />
                 <Link 
                   to={createPageUrl('Join')}
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    handleNavClick('Join');
+                  }}
                   className="px-10 py-4 bg-[#0a0f2f] text-white rounded-full text-lg font-semibold"
                 >
                   {t.nav.becomeMember}
@@ -177,6 +198,9 @@ export default function Layout({ children }) {
         )}
       </AnimatePresence>
 
+      {/* Header Spacer - ensures content is not blocked by fixed header */}
+      <div className="h-[140px] md:h-[180px]"></div>
+      
       <main>
         {children}
       </main>
@@ -197,7 +221,11 @@ export default function Layout({ children }) {
               <ul className="space-y-3">
                 {navLinks.map((link) => (
                   <li key={link.path}>
-                    <Link to={createPageUrl(link.path)} className="text-slate-400 hover:text-white transition-colors">
+                    <Link 
+                      to={createPageUrl(link.path)} 
+                      onClick={() => handleNavClick(link.path)}
+                      className="text-slate-400 hover:text-white transition-colors"
+                    >
                       {link.name}
                     </Link>
                   </li>
